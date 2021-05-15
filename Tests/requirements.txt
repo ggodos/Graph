@@ -2,4 +2,4 @@ PyQt5==5.15.4
 matplotlib==3.4.1
 networkx==2.5.1
 scipy==1.6.3
-python>=3.9.5
+python>=3.10
