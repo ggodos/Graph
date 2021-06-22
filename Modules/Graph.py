@@ -167,7 +167,8 @@ class Graph:
         """Чтение и инициализация графа.
 
         Raises:
-            Exception: "Incorrect file type <file_ext>".
+            Exception: "Choose file first!".
+            Exception: "Incorrect file type: <file_ext>".
             Exception: "Path Error".
             Exception: "File not match input type".
             Exception: "Uncorrect vertice".
@@ -192,8 +193,6 @@ class Graph:
             raise Exception("Path Error")
         except (IndexError, ValueError):
             raise Exception("File not match input type")
-        except Exception("Uncorrect vertice"):
-            raise Exception("Uncorrect vertice")
 
 
     def minPathFind(self, start, goal):

@@ -12,7 +12,7 @@ def getAuthors():
     Returns:
         string: Строка с авторами.
     """
-    return dedent( \
+    return dedent(
         """
             Проект летней практики
             ВШ ЭКН ЮУрГУ 2021
