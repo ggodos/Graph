@@ -1,0 +1,27 @@
+
+* text=auto
+
+# GitHub
+.gitattributes          text
+.gitignore              text
+README.md               text
+
+# Source files
+*.py                    text
+*.bat                   text
+
+# Test files
+*.list                  text
+*.mat                   text
+*.listw                 text
+*.listd                 text
+*.listdw                text
+*.listwd                text
+*.matw                  text
+*.matd                  text
+*.matdw                 text
+*.matwd                 text
+
+# Binary
+*.svg
+
