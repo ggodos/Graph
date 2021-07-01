@@ -6,10 +6,6 @@
 ***
 
 
-
-To install required modules write  
->pip install -r requirements.txt
-
 To launch programm run
 >start.bat
 
