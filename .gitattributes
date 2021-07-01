@@ -23,5 +23,5 @@ README.md               text
 *.matwd                 text
 
 # Binary
-*.svg
+*.svg                   bin
 
